@@ -14,7 +14,8 @@ def link_button(address:str,title:str,image:str,is_external:bool=True) ->rx.Comp
                         margin=Size.MEDIUM.value,
                      )
                 ),
-                rx.text(title)
+                rx.text(title),
+                align="center"
                 
             ),
             style=link_button_style 

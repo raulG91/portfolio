@@ -22,7 +22,7 @@ style = {
     "font_family": "Open Sans",
     "background": GlobalColors.BACKGROUND.value,
     "color": TextColor.BODY.value,
-    rx.Heading: {
+    rx.heading: {
         "margin_top": "40px",
         "margin_bottom": "40px",
 

@@ -3,16 +3,17 @@ import reflex as rx
 def display_skill(skill:list)->rx.Component:
     return rx.hstack(
         rx.image(src=skill[1]),
-        rx.text(skill[0])
+        rx.text(skill[0]),
+        align="center"
         
     )
 
 def skill_grid(skills:dict)->rx.Component:
-   return rx.responsive_grid(
+   return rx.grid(
         rx.foreach(
             skills,
             display_skill
         ),
-        columns=[3]
+        columns="3"
         
     )

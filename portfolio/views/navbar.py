@@ -9,8 +9,8 @@ def navbar()->rx.Component:
                     rx.icon(tag="download",height = Size.BIG.value,),
                     rx.text("Download CV"),
                     on_click=rx.download(
-                    url="/documents/CV_Raul_garcia pdf",
-                    filename="CV_Raul_garcia pdf",
+                    url="/documents/CV_Raul_garcia.pdf",
+                    filename="CV_Raul_garcia.pdf",
                     ),
                     style= link_button_style,
              

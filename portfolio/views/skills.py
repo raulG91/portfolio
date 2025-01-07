@@ -14,7 +14,8 @@ def skills()->rx.Component:
             
     return rx.vstack(
         
-        rx.heading("<Languages/>",size='2xl'),
-        skill_grid(skills=skills)
-        
+        rx.heading("<Languages/>",size='8'),
+        skill_grid(skills=skills),
+        align="center",
+        width="100%"
     )
