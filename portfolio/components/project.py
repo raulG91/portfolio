@@ -36,7 +36,8 @@ def project_box(title:str,description:str,image:str,technology:list[str],source_
             ),
             rx.hstack(
                 link_button(source_code,"Code","/github.svg"),
-                link_button(live_link,"Live",'/live.svg'),
+                rx.cond(len(live_link)>0,link_button(live_link,"Live",'/live.svg'))
+                
             ),
             align_items="center",
                

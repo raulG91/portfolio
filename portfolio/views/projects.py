@@ -9,7 +9,9 @@ def projects()->rx.Component:
             project_box("Mi coleccion","Manage your videogame collection","/mi_coleccion.png",['/python.svg','/html.svg','/css.svg','/js.svg','/mysql.svg'],"https://github.com/raulG91/mi_coleccion","https://raulg91.pythonanywhere.com/"),
             project_box("Weeding website","Website used for my weeding","/weeding.png",['/python.svg','/html.svg','/css.svg','/js.svg'],"https://github.com/raulG91/weeding","https://www.bodamariaraul.net"),
             project_box("Bankig app","App for bank transactions, created during a hackaton organizated by Caixabank","/caixa_logo.png",['/python.svg','/mysql.svg','/docker.svg'],"https://github.com/raulG91/caixabank-backend-py-bankingapp","https://nuwe.io/es/hackathons/caixabank-tech-challenges-round-1?challenge=caixabank-tech-round-1-python"),
-            project_box("Pollen app","Done with Reflex will provide information about pollen data in Andalucia","/Pollen_App.png",['/python.svg','/reflex.png'],"https://github.com/raulG91/pollen_app","https://pollen_app-blue-moon.reflex.run/")
+            project_box("Pollen app","Done with Reflex will provide information about pollen data in Andalucia","/Pollen_App.png",['/python.svg','/reflex.png'],"https://github.com/raulG91/pollen_app","https://pollen_app-blue-moon.reflex.run/"),
+            project_box("F1 API","API done with Express, will provide data for F1 season","/f1_logo.png",['/js.svg','/nodejs.svg','/mongodb.svg'],"https://github.com/raulG91/f1_api",""),
+            project_box("Granada sports","Backend done with FastAPI used to publish sports events in Granada","/granada_sports.png",['/python.svg','/mysql.svg','/docker.svg'],"https://github.com/raulG91/granada_sport_backend","")
 
         ),
         align="center",
